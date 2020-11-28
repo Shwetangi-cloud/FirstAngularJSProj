@@ -1,0 +1,38 @@
+{
+  "name": "personalTaskManager",
+  "version": "1.0.0",
+  "authors": [
+    "Shwetangi P"
+  ],
+  "description": "Create your own To Do Lists using this app",
+  "main": "app/index.html",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "bower_components"
+  ],
+  "appPath": "app",
+  "dependencies": {
+    "angular": "~1.4.8",
+    "angular-ui-router": "~0.2.12",
+    "angular-bootstrap": "~1.1.2",
+    "jquery": "~2.2.0",
+    "bootstrap": "~3.3.6",
+    "fontawesome": "~4.5.0",
+    "metisMenu": "~2.4.0",
+    "animate.css": "https://github.com/daneden/animate.css.git#~3.2.0",
+    "angular-ladda": "^0.4.3",
+    "angular-datatables": "0.5.3",
+    "datatables": "^1.10.13",
+    "iCheck": "^1.0.2",
+    "datatables.net": "^1.10.13",
+    "datatables.net-bs": "^2.1.1",
+    "datatables.net-buttons": "^1.2.4",
+    "datatables.net-buttons-bs": "^1.2.4",
+    "noty": "^2.4.1",
+    "awesome-bootstrap-checkbox": "~0.3.4",
+    "jquery-validation": "jquery.validate#^1.13.0",
+    "moment": "^2.18.0",
+    "underscore": "^1.8.3"
+  }
+}

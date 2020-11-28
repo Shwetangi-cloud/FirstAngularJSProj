@@ -1,0 +1,18 @@
+body
+{
+  background-color: #98CC4B;
+}
+
+.done
+{
+  text-decoration: line-through;
+}
+
+.input-form
+{
+  border-top: dashed 1px;
+  padding-top: 1em;
+}
+.card-border-color{
+  color:grey;
+}

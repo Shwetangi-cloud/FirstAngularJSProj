@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="styles/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular.min.js"></script>
+    <title>Personal Task Manager</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <script src="scripts/app.js"></script>
+    <script src="scripts/cards.js"></script>
+    <script src="scripts/todolist.js"></script>
+</head>
+
+<body ng-app='personalTaskManager' ng-controller='toDoListCtrl' style="padding-top: 20px;">
+    <!-- ng-controller is a brain of our application.
+  It will hold logics required by the application
+  -->
+    <div class="container">
+        <div class="panel panel-default">
+            <div class="panel-body" style="color:grey !important;">To Do List
+                <div class="row">
+                    <div class="col-xs-12 col-sm-4 col-lg-3 col-md-4 ">
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <h5 class="card-title">List 1</h5>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <p>Delete this list</p>
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="row" id="contentPanel">
+
+                                </div>
+                                <form class="form-inline class-border-color">
+                                    <button type="button" class="btn btn-info" id="btnGen">Add new card</button>
+                                </form>
+                               
+
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-xs-12 col-sm-4">
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <h6>Add new list..</h6>
+                            </li>
+                        </ul>
+    
+                    </div>
+    
+                </div>
+                
+            </div>
+
+        </div>
+    </div>
+
+    </div>
+    </div>
+
+
+</body>
+
+</html>
